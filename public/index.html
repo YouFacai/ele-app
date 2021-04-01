@@ -4,14 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=a6ec14d59987421c225839be3022826d"></script> 
+	<style type="text/css">
+		html,body {
+			background-color: #F1F1F1;
+			overflow-x: hidden;
+			height: 100%;
+			width: 100%;
+		}
+		
+		/* 去除滚动条 */
+		body::-webkit-scrollbar {
+		   	display: none;
+		}
+		
+		#app {
+			/* 搭配 */
+			height: auto;
+			min-height: 100%;
+		}
+		
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+		
   </body>
 </html>

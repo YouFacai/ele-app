@@ -1,4 +1,4 @@
-# ele-app
+# movieapp
 
 ## Project setup
 ```

@@ -1,0 +1,5 @@
+status:-3,msg:'验证码发送失败',					
+status:-2,msg:'验证码已过期'				
+status:-1 验证码错误
+status: 0   无问题
+status: 1  不在账号(没注册过)
